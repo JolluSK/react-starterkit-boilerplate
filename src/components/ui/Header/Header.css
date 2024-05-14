@@ -1,0 +1,36 @@
+.header {
+  background-color: #fff;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 64px;
+}
+
+.header-heading {
+  color: #0b2972;
+}
+
+.nav-title {
+  font-size: x-large;
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+
+.head-bar {
+  height: 5rem;
+  justify-content: flex-start;
+}
+
+.user-menu {
+  background-color: #0b2972;
+  color: white;
+}
+
+.user-menu .ant-dropdown-menu-item {
+  color: white;
+}
+
+.user-menu .ant-dropdown-menu-item:hover {
+  background-color: #082855;
+}

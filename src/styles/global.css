@@ -1,0 +1,78 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif; /* Example font */
+  background-color: var(--background-color, #f0f2f5); /* Default fallback */
+}
+
+/* CSS Variables */
+:root {
+  --primary-color: #1890ff; /* Primary color for overriding Ant Design's theme */
+  --link-color: #1890ff; /* Link color */
+  --background-color: #ffffff; /* Background color */
+}
+
+/* Example of overriding Ant Design's Button */
+.ant-btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+/* @font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+} */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.ant-menu {
+  font-size: 0.9rem !important;
+}
+
+.ant-menu-item > .ant-menu-title-content {
+  font-weight: bold !important;
+}
+
+.ant-menu-item-icon {
+  font-size: 1.5rem !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.ant-menu-item-selected,
+.ant-menu-submenu-selected > .ant-menu-submenu-title {
+  background-color: #f1f8fd !important;
+  color: #050042 !important;
+}
+
+.ant-menu-item-selected > .ant-menu-item-icon {
+  color: #0c4cc9 !important;
+}
+
+.ant-menu-item-selected > .ant-menu-title-content {
+  color: #05004e !important;
+  font-weight: bold !important;
+}
+
+.ant-menu-item:not(.ant-menu-item-selected):hover,
+.ant-menu-submenu-title:hover,
+.title {
+  color: #ffffff;
+}
+
+.ant-menu-submenu li {
+  color: white !important;
+}
+
+.ant-menu-submenu li:hover,
+.ant-menu-sider-children {
+  color: white !important;
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item {
+  padding-inline: calc(50%-5px-6.5px) !important;
+}

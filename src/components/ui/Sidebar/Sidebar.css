@@ -1,0 +1,62 @@
+.sidebar {
+  background: #0c4cc9 !important;
+  color: #fff;
+  font-size: 0.9rem;
+
+  .ant-menu-item-icon {
+    font-size: 1rem !important;
+  }
+}
+
+.sidebar-menu {
+  background-color: #0c4cc9 !important;
+  color: #fff;
+  padding: 0 3px;
+  margin: 10px 0;
+
+  .ant-menu-item {
+    margin-bottom: 20px !important;
+    border-radius: 8px;
+    display: flex;
+    font-size: 0.9rem;
+    color: #ffffff !important;
+    align-items: center !important;
+  }
+
+  .ant-menu-item > .ant-menu-title-content {
+    font-weight: 100;
+  }
+}
+
+.no-display{
+  display: none !important;
+}
+
+/* Styles for the responsive scrollable menu */
+.responsive-scroll-sidebar {
+  height: 85vh;  
+  overflow-y: auto;  
+  overflow-x: hidden;  
+}
+
+/* Custom scrollbar styling */
+.responsive-scroll-sidebar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 255, 0.3);  
+  border-radius: 5px;
+}
+
+.ant-menu-item-icon {
+  font-size: 1rem !important;
+}
+
+.ant-menu-item {
+  border-radius: 8px;
+  display: flex;
+  font-size: 0.9rem;
+  color: #ffffff !important;
+  align-items: center !important;
+}
+
+
+
+
